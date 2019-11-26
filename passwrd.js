@@ -15,7 +15,7 @@ document.querySelector("#generate").addEventListener('click', ()=> {
   
   const randSelector = [];
   const password = [];
-  //String.fromCharCode();
+
   if(upper===true){
     for(let i=UNIupper[0]; i<= UNIupper[1]; i++){
       randSelector.push(i);
